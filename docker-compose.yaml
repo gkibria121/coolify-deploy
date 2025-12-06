@@ -1,0 +1,6 @@
+services:
+  frontend:
+    build:
+      context: .
+      target: production
+    restart: unless-stopped
